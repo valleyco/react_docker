@@ -1,0 +1,5 @@
+#!/bin/bash
+CMD_PATH=`dirname $0`
+echo $CMD_PATH
+echo $CMD_PATH/run npm start
+$CMD_PATH/run npm start

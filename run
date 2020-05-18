@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -it -p3000:3000 -v`pwd`:/usr/app -u `id -u`:`id -g` -w /usr/app node_react:1.0  "$@" 
